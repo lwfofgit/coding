@@ -1,3 +1,3 @@
-module github.com/lwfofgit/data_structure
+module github.com/lwfofgit/coding
 
 go 1.12

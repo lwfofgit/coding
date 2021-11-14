@@ -1,6 +1,6 @@
 package heap_sort
 
-import "github.com/lwfofgit/data_structure/src/algorithms/golang/common"
+import "github.com/lwfofgit/coding/src/algorithms/golang/common"
 
 //小顶堆
 type BigTopHeap struct {

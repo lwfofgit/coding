@@ -1,4 +1,4 @@
-package graph
+package bfs_dfs
 
 /*
 图表示方法：
@@ -12,9 +12,13 @@ type Graph struct {
 }
 
 func CreateGraph(v int) *Graph {
+	a := make([][]int, 8)
+	for i := range a {
+		a[i] = make([]int, 0)
+	}
 	return &Graph{
 		VertexNums:     v,
-		AdjacencyTable: make([][]int, 0),
+		AdjacencyTable: a,
 	}
 }
 

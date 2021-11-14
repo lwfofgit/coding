@@ -2,7 +2,7 @@ package heap_sort
 
 import (
 	"fmt"
-	"github.com/lwfofgit/data_structure/src/algorithms/golang/common"
+	"github.com/lwfofgit/coding/src/algorithms/golang/common"
 )
 
 // n表示数据的个数，列表a中的数据从下标1到n的位置,列表0不存储数据
