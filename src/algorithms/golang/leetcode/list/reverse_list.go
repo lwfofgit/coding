@@ -1,9 +1,5 @@
-package leetcode
+package list
 
-type ListNode struct {
-	Var int
-	Next *ListNode
-}
 
 // 1>2>3>nil
 // 3>2>1>nil
