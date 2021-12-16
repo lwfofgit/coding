@@ -1,10 +1,6 @@
 package tree
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+import . "github.com/lwfofgit/coding/src/algorithms/golang/leetcode"
 
 func midOrder(root *TreeNode) []int {
 	var v []int
